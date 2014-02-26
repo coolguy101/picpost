@@ -14,18 +14,18 @@ public class PicPostModel {
 	//private Bitmap picture;
 	private String text;
 	private Date timestamp;
-	
-	
-	public PicPostModel(String text, Date timestamp) {
-		//this.picture = picture;
+	Bitmap picture;
+	String code;
+	public PicPostModel(String code,String text, Date timestamp) {
+		this.code = code;
 		this.text = text;
 		this.timestamp = timestamp;
 	}
 	
 	
-	//public Bitmap getPicture() {
-	//	return this.picture;
-	//}
+	public Bitmap getPicture() {
+		return this.picture;
+	}
 	
 	
 	public String getText() {

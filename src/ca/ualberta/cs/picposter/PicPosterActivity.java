@@ -78,7 +78,8 @@ public class PicPosterActivity extends Activity {
 		
 		//TODO : perform search, update model, etc
 		
-		this.searchPostsEditText.setText(null);
-		this.searchPostsEditText.setHint(R.string.search_posts_edit_text_hint);
+		//this.searchPostsEditText.setText(null);
+		//this.searchPostsEditText.setHint(R.string.search_posts_edit_text_hint);
+		
 	}
 }
